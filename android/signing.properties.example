@@ -1,0 +1,5 @@
+# Copy to signing.properties locally. Never commit credentials or the keystore.
+storeFile=/absolute/private/path/cloud-music-release.p12
+storePassword=REPLACE_LOCALLY
+keyAlias=cloud-music
+keyPassword=REPLACE_LOCALLY

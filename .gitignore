@@ -1,0 +1,16 @@
+.DS_Store
+.gradle/
+**/build/
+**/.build/
+local.properties
+signing.properties
+*.jks
+*.keystore
+*.p12
+dist/
+*.dmg
+*.apk
+*.aab
+*.zip
+*.xcarchive
+.idea/

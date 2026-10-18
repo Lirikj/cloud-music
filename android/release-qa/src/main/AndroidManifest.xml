@@ -1,0 +1,6 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <queries><package android:name="app.cloudmusic" /></queries>
+    <application android:label="Cloud Music Release QA" android:testOnly="true" />
+    <instrumentation android:name="androidx.test.runner.AndroidJUnitRunner" android:targetPackage="app.cloudmusic.releaseqa" />
+</manifest>

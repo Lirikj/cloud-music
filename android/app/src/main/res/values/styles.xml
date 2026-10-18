@@ -1,0 +1,17 @@
+<resources>
+    <style name="Base.Theme.CloudMusic" parent="android:style/Theme.Material.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">#121212</item>
+        <item name="android:navigationBarColor">#121212</item>
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
+    <style name="Theme.CloudMusic" parent="Base.Theme.CloudMusic" />
+    <style name="Theme.CloudMusic.CastDialog" parent="Theme.AppCompat.Dialog">
+        <item name="colorAccent">#1ED760</item>
+        <item name="android:colorAccent">#1ED760</item>
+        <item name="android:windowBackground">#181818</item>
+        <item name="android:textColorPrimary">#F4F4F4</item>
+        <item name="android:textColorSecondary">#A7A7A7</item>
+    </style>
+</resources>

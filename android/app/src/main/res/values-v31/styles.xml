@@ -1,0 +1,6 @@
+<resources>
+    <style name="Theme.CloudMusic" parent="Base.Theme.CloudMusic">
+        <item name="android:windowSplashScreenBackground">#121212</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+    </style>
+</resources>
